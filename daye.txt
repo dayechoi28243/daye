@@ -1,0 +1,6 @@
+PS C:\Users\Administrator\Desktop\최다예> git add .
+PS C:\Users\Administrator\Desktop\최다예> git commit -m "."
+(따옴표안에 수정사항이나 추가사항 설명 적기)
+ 1 file changed, 1 insertion(+)
+PS C:\Users\Administrator\Desktop\최다예> git push
+(푸시로 파일 업로드)

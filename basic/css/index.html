@@ -494,9 +494,6 @@
 <div class="item mx-2">item</div> -->
 
 
-
-
-<div>item</div>
   <!-- <style>
 .btn{padding: 8px 12px;}
 .btn1{margin-right: 8px;}
@@ -508,22 +505,459 @@
 <button class="btn btn2">취소</button> -->
 
 
+<!-- <h1>width</h1>
+<p>넓이</p>
 <style>
-  body{display: flex; gap: 20px;}
-.box{border-style: solid;
- border-color:gold;
- width: 100px; height: 100px;
- box-sizing: border-box;
- display: flex;align-items: center;justify-content: center; text-align: center;
-}
-.box1{border-width:1px;}
-.box2{border-width:5px;}
-.box3{border-width:20px;}
+  .item{background-color: #ddd;}
+  .w-auto{width: auto;}
+  .w-16{width: 4rem;}
+  .bolck{display: block;}
+  .inline-block{display: inline-block;}
 </style>
 
-<div class="box box1">border 1px</div>
-<div class="box box2">border 5px</div>
-<div class="box box3">border 20px</div>
+<h3>bolck과 width: auto</h3>
+<div class="item block w-auto">item</div>
+<div class="item block w-auto">item</div>
+<div class="item block w-auto">item</div>
+<h3>bolck과 width 지정</h3>
+<div class="item block w-16">item</div>
+<div class="item block w-16">item</div>
+<div class="item block w-16">item</div>
+<h3>inline-bolck과 width: auto (기본값)</h3>
+<div class="item inline-block w-auto">item</div>
+<div class="item inline-block w-auto">item</div>
+<div class="item inline-block w-auto">item</div>
+<h3>inline-bolck과 width 지정</h3>
+<div class="item inline-block w-16">item</div>
+<div class="item inline-block w-16">item</div>
+<div class="item inline-block w-16">item</div> -->
+
+<!-- <h1>min width</h1>
+<p>최소넓이</p>
+
+<style>
+  .item{background-color: #ddd;}
+  .min-w-600px{
+    min-width:600px;
+  }
+</style>
+<h3>min width: 600px</h3>
+<div class="item min-w-600px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sequi dolore, molestiae explicabo nesciunt ut. Est assumenda facilis et, ab quisquam reiciendis corporis blanditiis voluptate numquam beatae ullam nesciunt minima.</div> -->
+
+<!-- <h1>max width</h1>
+<p>최대넓이</p>
+
+<style>
+  .item{background-color: #ddd;}
+  .max-w-xl{
+    max-width:36rem;
+  }
+</style>
+
+<div class="item max-w-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sequi dolore, molestiae explicabo nesciunt ut. Est assumenda facilis et, ab quisquam reiciendis corporis blanditiis voluptate numquam beatae ullam nesciunt minima.</div> -->
+
+<!-- <h1>height</h1>
+<p>높이</p>
+
+<style>
+  .item{background-color: #ddd;}
+  .h-auto{height: auto;}
+  .h-100px{height: 100px;}
+</style>
+
+<h3>height: auto (기본값)</h3>
+<div class="item h-auto">
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic explicabo praesentium iste non beatae, magnam optio culpa voluptates nam labore ad officiis, placeat eius consequuntur veniam doloremque quis excepturi esse.
+</div>
+
+<h3>height: 100px</h3>
+<div class="item h-100px">
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic explicabo praesentium iste non beatae, magnam optio culpa voluptates nam labore ad officiis, placeat eius consequuntur veniam doloremque quis excepturi esse.
+</div> -->
+
+
+<!-- <h1>min height</h1>
+<p>최소 높이</p>
+
+<style>
+  .item{background-color: #ddd;}
+  .min-h-12{min-height: 3rem;}
+</style>
+
+<h3>min-height: 3rem</h3>
+<div class="item min-h-12">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+<h3>min-height: 3rem</h3>
+<div class="item min-h-12">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic explicabo praesentium iste non beatae, magnam optio culpa voluptates nam labore ad officiis, placeat eius consequuntur veniam doloremque quis excepturi esse.</div> -->
+
+<!-- <h1>max height</h1>
+<style>
+  .item{background-color: #ddd;}
+  .max-h-12{max-height: 3rem;}
+</style>
+<h3>max height:3rem</h3>
+<div class="item max-h-12">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+<h3>min-height: 3rem</h3>
+<div class="item max-h-12">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic explicabo praesentium iste non beatae, magnam optio culpa voluptates nam labore ad officiis, placeat eius consequuntur veniam doloremque quis excepturi esse.</div> -->
+
+<!-- <style>
+  .group1 .item{width: 90px; height: 210px; display: inline-block;}
+  .group1 .item1{background-color: green;}
+  .group1 .item2{background-color: white;}
+  .group1 .item3{background-color: gold;}
+
+  .group2 .item{width: 270px; height: 70px;}
+  .group2 .item1{background-color: red;}
+  .group2 .item2{background-color: white;}
+  .group2 .item3{background-color: blue;}
+</style>
+
+<h2>Ireland</h2>
+<div class="group1">
+  <div class="item item1"></div>
+  <div class="item item2"></div>
+  <div class="item item3"></div>
+</div>
+
+<br>
+<h2>Netherlands</h2>
+<div class="group2">
+  <div class="item item1"></div>
+  <div class="item item2"></div>
+  <div class="item item3"></div>
+</div> -->
+
+
+<!-- <h1>box sizing</h1>
+<p>엘리먼트의 크기 조절</p>
+<style>
+  .item{width: 100px; height: 100px; border: 1px solid;
+    padding: 0.5rem; background-color: #ddd;}
+
+  .content-box{box-sizing: content-box;}
+  .border-box{box-sizing: border-box;}
+</style>
+
+<h3>box-sizing: content box(기본값)</h3>
+<pre>padding과 border가 주어진 크기 밖으로 적용된다.</pre>
+<div class="item content-box">118 X 118</div>
+
+<h3>box-sizing: border box</h3>
+<pre>padding과 border가 주어진 크기 안으로 적용된다.</pre>
+<div class="item border-box">100 X 100</div> -->
+
+
+
+
+<!-- <h1>overflow</h1>
+<p>넘치는 컨텐츠 처리 방법</p>
+
+<style>
+  .container{border:1px solid; height: 50px;}
+  .overflow-hidden{overflow: hidden;}
+  .overflow-auto{overflow: auto;}
+  .overflow-visible{overflow: visible;}
+</style>
+
+<h3>overflow: hidden</h3>
+<pre>넘치는 부분을 숨긴다</pre>
+<div class="container overflow-hidden">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptate minima, dicta officia ut reprehenderit recusandae ex nulla illum soluta necessitatibus molestiae. Cum, necessitatibus vel ad aspernatur commodi odio amet?
+</div>
+<h3>overflow: auto</h3>
+<pre>넘칠경우 스크롤을 생성한다</pre>
+<div class="container overflow-auto">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptate minima, dicta officia ut reprehenderit recusandae ex nulla illum soluta necessitatibus molestiae. Cum, necessitatibus vel ad aspernatur commodi odio amet?
+</div>
+<h3>overflow: visible(기본값)</h3>
+<pre>넘치는 부분을 그대로</pre>
+<div class="container overflow-visible">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptate minima, dicta officia ut reprehenderit recusandae ex nulla illum soluta necessitatibus molestiae. Cum, necessitatibus vel ad aspernatur commodi odio amet?
+</div> -->
+
+
+
+<!-- <h1>white space</h1>
+<p>여백 처리 방법</p>
+
+<style>
+  .container{border:1px solid;}
+  .item{width:200px; display: inline-block; background-color: #ddd;}
+  .whitespace-normal{white-space:normal;}
+  .whitespace-nowrap{white-space: nowrap;} 
+</style>
+
+<h3>white space: normal(기본값)</h3>
+<pre>컨테이너가 크기가 부족할 경우 아이템을 감싼다.wrap
+(아이템을 아래로 떨어뜨린다.)
+</pre>
+<div class="container whitespace-normal">
+  <div class="item">item</div>
+  <div class="item">item</div>
+  <div class="item">item</div>
+</div>
+
+<h3>white space: nowrap</h3>
+<pre>컨테이너의 크기가 부족해도
+아이템을 감싸지 않는다 nowrap
+</pre>
+<div class="container whitespace-nowrap">
+  <div class="item">item</div>
+  <div class="item">item</div>
+  <div class="item">item</div>
+</div> -->
+
+
+<!-- <h1>position</h1>
+<pre>엘리먼트의 위치 선정 방법
+static, relative, absolute, fixed 등
+</pre> -->
+
+
+<!-- <h1>position: static (기본값)</h1>
+<p>아이템이 움직이지 않는다.
+  (static: 정적이다.)</p>
+
+<style>
+  .item{background-color: #ddd;
+    display: inline-block; padding: 0.5rem;}
+  .static{position: static;}
+</style>
+
+<div class="item static">item</div>
+<div class="item static">item</div>
+<div class="item static">item</div> -->
+
+<!-- <h1>position: relative</h1>
+<p>원래 위치에 상대적으로 위치한다.</p>
+
+<style>
+  .item{background-color: #ddd;
+  display: inline-block; padding: 0.5rem;
+  border:1px solid;
+  }
+  .relative{position: relative;}
+  .top-2{top:0.5rem}
+  .left-2{left:0.5rem}
+</style>
+
+
+<div class="item">item</div>
+<div class="item relative top-2 left-2">item</div>
+<div class="item">item</div> -->
+
+
+<!-- <h1>position: absolute</h1>
+<p>relative 부모에 상대적으로 위치한다.</p>
+
+<style>
+  .container{border:1px solid; width: 200px; height: 200px;}
+  .item{background-color: #ddd; padding: 0.5rem;}
+  .relative{position: relative;}
+  .absolute{position: absolute;}
+  .top-0{top:0;}
+  .left-0{left:0}
+  .bottom-0{bottom:0;}
+  .right-0{right: 0;}
+</style>
+
+<div class="container relative">
+<div class="item absolute top-0 left-0">item 1</div>
+<div class="item absolute top-0 right-0">item 2</div>
+<div class="item absolute bottom-0 left-0">item 3</div>
+<div class="item absolute bottom-0 right-0">item 4</div>
+</div> -->
+
+
+<!-- <h1>position: fixed</h1>
+<p>뷰포트(화면)에 상대적으로 위치한다</p>
+
+<style>
+  .item{background-color: #ddd; padding:0.3rem;}
+  .fixed{position: fixed;}
+  .top-0{top:0;}
+  .bottom-0{bottom:0;}
+  .left-0{left:0;}
+  .right-0{right:0;}
+</style>
+
+<div class="item fixed top-0 left-0">item 1</div>
+<div class="item fixed top-0 right-0">item 2</div>
+<div class="item fixed bottom-0 right-0">item 3</div>
+<div class="item fixed bottom-0 left-0">item 4</div> -->
+
+
+
+
+
+
+<!-- <style>
+  .box{border:1px solid; width: 140px; height: 140px; position: relative;}
+  .item{width: 70px; height: 70px; background-color: black;}
+  .box1 .item1{position: absolute; top:0; left:0;}
+  .box1 .item2{position: absolute; top:70px; left:70px;}
+  .box2 .item{position: absolute; top:35px; left:35px;}
+</style>
+
+<h1>Q. position</h1>
+<h3>check</h3>
+<div class="box box1">
+  <div class="item item1"></div>
+  <div class="item item2"></div>
+</div>
+
+<h3>center</h3>
+<div class="box box2">
+  <div class="item"></div>
+</div> -->
+
+
+
+<!-- <h1>object fit</h1>
+<p>이미지의 맞춤 조절</p>
+
+<style>
+  img{width: 200px;height: 200px; border:1px solid;}
+  .object-fill{object-fit: fill;}
+  .object-contain{object-fit: contain;}
+  .object-cover{object-fit: cover;}
+</style>
+
+<h3>object fit: fill (기본)</h3>
+<p>이미지가 주어진 공간을 채운다
+  이미지가 늘어나거나 줄어들 수 있다.
+</p>
+<img class="object-fill" src="img.jpg" alt="">
+
+<h3>object fit: cover</h3>
+<p>이미지가 주어진 공간을 채운다
+  이미지의 원본비율을 유지한다
+  이미지가 잘릴 수 있다
+</p>
+<img class="object-cover" src="img.jpg" alt="">
+
+<h3>object fit: contain</h3>
+<p>이미지가 원본비율을 유지한다
+</p>
+<img class="object-contain" src="img.jpg" alt=""> -->
+
+
+
+<!-- <h1>background image</h1>
+<p>엘리먼트의 배경이미지</p>
+
+<style>
+  .container{width: 200px; height: 200px;
+  border:1px solid; color:#fff;}
+
+  .bg-img{
+    /* 이미지의 소스(주소) */
+    background-image: url("https://blog.kakaocdn.net/dn/bq7aS9/btqSIYWoFWc/uECunLf1LkTa3jkXKtQkO0/img.jpg");
+    /* 이미지의 크기 */
+    /* 픽셀,퍼센트로도 너비를 지정 할 수도 있다. */
+    background-size: cover;
+    /* 이미지의 위치 */
+    background-position: center;
+  }
+</style>
+
+<h3>background-image</h3>
+<div class="container bg-img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora doloremque laudantium voluptatem? Harum, cupiditate officiis ducimus id voluptatum ex commodi, nulla nobis aperiam corporis optio similique facere cum, odit aliquam?</div> -->
+
+
+
+<!-- <h1>flex</h1>
+
+<style>
+  .container{border: 1px solid;}
+  .flex{display: flex;}
+  .item{padding:0.5rem;
+    background-color: #ddd;}
+</style>
+
+<div class="container flex">
+  <div class="item">item</div>
+  <div class="item">item</div>
+  <div class="item">item</div>
+</div> -->
+
+
+
+<!-- <pre>
+  flex container 속성
+  1 flex direction
+  2 flex wrap
+  3 justify content
+  4 align items
+
+  flex item 속성
+  1 flex grow
+  2 flex shrink
+  3 flex basis
+  4 flex order
+</pre> -->
+
+<!-- <h1>flex direction</h1>
+<p>flex item의 배열 방향</p>
+
+<style>
+  .container{border:1px solid;}
+  .item{background-color: #ddd; padding: 0.5rem;}
+  .flex{display: flex;}
+  .flex-row{flex-direction: row;}
+  .flex-col{flex-direction: column;}
+</style>
+
+<h3>flex direction: row (기본값)</h3>
+<div class="container flex flex-row">
+  <div class="item">item</div>
+  <div class="item">item</div>
+  <div class="item">item</div>
+</div>
+
+<h3>flex direction:colum</h3>
+<div class="container flex flex-col">
+  <div class="item">item</div>
+  <div class="item">item</div>
+  <div class="item">item</div>
+</div> -->
+
+
+<h1>flex wrap</h1>
+<p>flex item을 감쌀 것인지 결정</p>
+
+<style>
+  .container{border:1px solid}
+  .item{background-color: #ddd;
+  width:200px; padding:0.5rem;}
+  .flex{display: flex;}
+  .flex-nowrap{flex-wrap: nowrap;}
+  .flex-wrap{flex-wrap: wrap;}
+</style>
+
+<h3>flex wrap: nowrap(기본값) </h3>
+<pre>아이템의 크기가 줄어든다</pre>
+<div class="container flex flex-nowrap">
+  <div class="item">item</div>
+  <div class="item">item</div>
+  <div class="item">item</div>
+</div>
+<h3>flex wrap: wrap </h3>
+<pre>아이템을 감싼다.</pre>
+<div class="container flex flex-wrap">
+  <div class="item">item</div>
+  <div class="item">item</div>
+  <div class="item">item</div>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 
